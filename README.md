@@ -25,8 +25,10 @@ debounce 코드를 알게 되었습니다. 이 코드 또한 millis()로 구현�
 
 <hr/>
 
-|제목|내용|설명|
+|함수|기능|설명|
 |------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|pinMode()|핀 입출력|pinMode(buttonPin, INPUT), pinMode(ledPin, OUTPUT)|
+|delay()|딜레이|delay(1000)|
+|digitalRead()|읽기|int reading = digitalRead(buttonPin)|
+|digitalWrite()|쓰기|digitalWrite(ledPin, ledState)|
+|millis()|경과된 시간||
