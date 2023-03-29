@@ -2,6 +2,8 @@
  
 ![Tinkercad Image](/LED3_Practice.png)
 
+<hr/>
+
 ## 1. LED Turn On & Off
 
 오늘은 pinMode() 함수를 통해서 특정한 핀을 통해서 입력과 출력을 받고, digitalWrite() 함수를 통해서 특정 핀의 상태를 변경하는 기능을 구현하였습니다.
