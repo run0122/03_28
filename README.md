@@ -11,6 +11,8 @@ delay()함수를 통해서 원하는 밀리초 구간동안 여러 개의 LED �
 https://www.letsstartcoding.com/concept-alternate-blinking-leds-with-millis
 위 코드를 참고하여 2개의 LED가 다른 사이클로 켜지고 꺼지는 코드를 구현할 수 있었습니다. millis()라는 함수를 이용해서 작동하는 코드였습니다. 각각의 LED에 timer변수를 줘서 LED가 켜지고 꺼지는 시간을 설정하며, 사이클이 종료될 때 현재 시간을 millis()함수를 통해 timer변수에 저장하고, 다시 사이클이 도는 형식이었습니다.
 
+<hr/>
+
 ## 2. Push Button & Debounce
 
 digitalRead(buttonPin) 함수를 통해서 현재 버튼 상태(buttonState)를 확인하고 buttonState가 HIGH거나 LOW일 때 변경되는 코드였습니다. buttonState가 HIGH일 때는 ledState도 HIGH, buttonState가 LOW일 때는 ledState도 LOW로 구현한 코드는 잘 작동하였습니다. 
